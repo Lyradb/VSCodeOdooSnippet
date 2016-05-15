@@ -13,7 +13,7 @@
 		"description": "Log output to console"
 	}
 */"Odoo Init": {
-		"prefix": "odoo_init_xml",
+		"prefix": "odoo_init_view",
 		"body": [
 			"<?xml version='1.0' encoding='UTF-8'?>",
  			"<openerp>",
@@ -24,7 +24,7 @@
     		"	</data>",
 			"</openerp>"
 		],
-		"description": "Odoo initialize XML"
+		"description": "Odoo initialize View"
 	},
 	
 	"Odoo Inherit": {
@@ -32,16 +32,16 @@
 		"body": [
 			"<fields />"
 		],
-		"description": "Odoo XML inherit from parent"
+		"description": "Odoo View inherit from parent"
 	},
 	
-	"Odoo XML Action": {
-		"prefix": "odoo_action",
+	"Odoo View Action": {
+		"prefix": "odoo_action_view",
 		"body": [
 			"",
-			"<!--${module_title}-->",
+			"<!--${module_title} Action-->",
 			"<record model='ir.actions.act_window' id='${module}_action'>",
-            "	<field name='name'>${module_title}</field>",
+            "	<field name='name'>${module}</field>",
             "	<field name='res_model'>${module}</field>",
             "	<field name='view_type'>form</field>",
             "	<field name='view_mode'>tree,form</field>",
@@ -52,8 +52,49 @@
             "	</field>",
         	"</record>"
 		],
-		"description": "Odoo XML action"
+		"description": "Odoo Action View"
+	},
+	
+	"Odoo View Form": {
+		"prefix": "odoo_form_view",
+		"body": [
+			"",
+			"<!--${module_title} Form-->",
+			"<record model='ir.ui.view' id='${module}_search'>",
+            "	<field name='name'>${module}</field>",
+            "	<field name='res_model'>${module}</field>",
+            "	<field name='type'>form</field>",
+            "	<field name='arch' type='xml'>",
+            "		<form string='${module_title}'>",
+            "			<sheet>",
+			"			<!--Begin your code here.-->",
+			"				${<!--To code here.-->}",
+			"			<!--End of coding here.-->",
+            "			</sheet>",
+            "		</form>",
+            "	</field>",
+        	"</record>"
+		],
+		"description": "Odoo Form View"
+	},
+	
+	"Odoo View Tree": {
+		"prefix": "odoo_tree_view",
+		"body": [
+			"",
+			"<!--${module_title} Tree-->",
+			"<record model='ir.ui.view' id='${module}_tree'>",
+            "	<field name='name'>${module}</field>",
+            "	<field name='res_model'>${module}</field>",
+            "	<field name='arch' type='xml'>",
+            "		<tree string='${module_title}'>",
+			"			<!--Begin your code here.-->",
+			"				${<!--To code here.-->}",
+			"			<!--End of coding here.-->",
+            "		</tree>",
+            "	</field>",
+        	"</record>"
+		],
+		"description": "Odoo Tree View"
 	}
-	
-	
 }
