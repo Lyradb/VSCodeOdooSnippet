@@ -21,7 +21,7 @@
  			"<openerp>",
     		"	<data>",
 			"	<!--Begin your code here.-->",
-			"		${<!--To code here.-->}",
+			"		${<!--To Do Code Here.-->}",
 			"	<!--End of coding here.-->",
     		"	</data>",
 			"</openerp>"
@@ -70,7 +70,7 @@
             "		<form string='${module_title}'>",
             "			<sheet>",
 			"			<!--Begin your code here.-->",
-			"				${<!--To code here.-->}",
+			"				${<!--To Do Code Here.-->}",
 			"			<!--End of coding here.-->",
             "			</sheet>",
             "		</form>",
@@ -91,12 +91,34 @@
             "	<field name='arch' type='xml'>",
             "		<tree string='${module_title}'>",
 			"			<!--Begin your code here.-->",
-			"				${<!--To code here.-->}",
+			"				${<!--To Do Code Here.-->}",
 			"			<!--End of coding here.-->",
             "		</tree>",
             "	</field>",
         	"</record>"
 		],
 		"description": "Odoo Tree View"
+	},
+	
+	"Odoo Menu Parent": {
+		"prefix": "odoo_menu_parent",
+		"body": [
+			"",
+			"<menuitem id='${module}_menu' name='${Menu Name}' parent='${parent_module}.${module}' sequence = '${seq}'/>"
+		],
+		"description": "Odoo Parent Menu"
+	},
+	
+	"Odoo Menu": {
+		"prefix": "odoo_menu",
+		"body": [
+			"",
+			"<menuitem ",
+			"id='${module}_menu'",
+			"name='${Menu Name}'",
+			"parent='${parent_module}.${module}'",
+			"/>"
+		],
+		"description": "Odoo Menu"
 	}
 }
