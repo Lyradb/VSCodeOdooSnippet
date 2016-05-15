@@ -188,7 +188,7 @@
     			"def create(self, vals):",
 				"	${#To Do Code Here.}"
 		],
-		"description": "Odoo Create Method"
+		"description": "Odoo Create Method using decorator"
 	},
 	
 	"Odoo Write": {
@@ -198,7 +198,7 @@
     			"def write(self, vals):",
 				"	${#To Do Code Here.}"
 		],
-		"description": "Odoo Write Method"
+		"description": "Odoo Write Method using decorator"
 	},
 	
 	"Odoo Search": {
@@ -208,7 +208,7 @@
         			"context={}, count=False, access_rights_uid=None):",
 				"	${#To Do Code Here.}"
 		],
-		"description": "Odoo Search Method"
+		"description": "Odoo Search Method using decorator"
 	},
 	
 	"Odoo Onchange": {
@@ -218,7 +218,7 @@
     			"def _${field}_id(self):",
 				"	${#To Do Code Here.}"
 		],
-		"description": "Odoo Onchange Method"
+		"description": "Odoo Onchange Method using decorator"
 	},
 	
 	"Odoo State": {
@@ -228,6 +228,6 @@
     			"def action_${state}(self):",
 				"	${#To Do Code Here.}"
 		],
-		"description": "Odoo State Method"
+		"description": "Odoo State Method using decorator"
 	}
 }
