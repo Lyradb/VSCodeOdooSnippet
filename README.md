@@ -11,12 +11,12 @@ From your VS Code, Python and XML extensions must be installed.<br/>
 <br/>
 <b>Application:</b><br/>
 1. For Python Intellisense:<br>
-  1.1. Copy the VSCodeOdooSnippet/python.json content.
+  1.1. Copy the VSCodeOdooSnippet/python.json content.<br/>
   1.2. From VS Code, Open menu File > Preferences > User Snippets > Python<br/>
   1.3. Paste and save.
 <br/>
 2. For XML Intellisense:<br>
-  2.1. Copy the VSCodeOdooSnippet/xml.json content.
+  2.1. Copy the VSCodeOdooSnippet/xml.json content.<br/>
   2.2. From VS Code, Open menu <i>File > Preferences > User Snippets > XML</i><br/>
   2.3. Paste and save.
 <br/>
