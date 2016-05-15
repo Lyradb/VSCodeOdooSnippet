@@ -104,5 +104,55 @@
 				", related = '${one2many}_id.${parent_field}'"
 		],
 		"description": "Odoo Related"
+	},
+	
+	"Odoo Create": {
+		"prefix": "odoo_create",
+		"body": [
+				"@api.model",
+    			"def create(self, vals):",
+				"	${#To Do Code Here.}"
+		],
+		"description": "Odoo Create Method"
+	},
+	
+	"Odoo Write": {
+		"prefix": "odoo_write",
+		"body": [
+				"@api.multi",   
+    			"def write(self, vals):",
+				"	${#To Do Code Here.}"
+		],
+		"description": "Odoo Write Method"
+	},
+	
+	"Odoo Search": {
+		"prefix": "odoo_search",
+		"body": [
+				"def _search(self, cr, uid, args, offset=0, limit=None, order=None,",
+        			"context={}, count=False, access_rights_uid=None):",
+				"	${#To Do Code Here.}"
+		],
+		"description": "Odoo Search Method"
+	},
+	
+	"Odoo Onchange": {
+		"prefix": "odoo_onchange",
+		"body": [
+				"@api.onchange('${field}_id')", 
+    			"def _${field}_id(self):",
+				"	${#To Do Code Here.}"
+		],
+		"description": "Odoo Onchange Method"
+	},
+	
+	"Odoo State": {
+		"prefix": "odoo_state",
+		"body": [
+				"@api.multi",
+    			"def action_${state}(self):",
+				"	${#To Do Code Here.}"
+		],
+		"description": "Odoo State Method"
 	}
 }
