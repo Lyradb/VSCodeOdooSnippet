@@ -22,6 +22,6 @@ Application:<br/>
 <br/>
 <br/>
 Usage:<br/>
-1. Create New file and save the file with python extension - ".py" or with Extensible Markup Language extension - ".xml"
+1. Create "New File" and save the file with Python extension - ".py" or with Extensible Markup Language extension - ".xml"
 <br/>
 2. Type "odoo_" and the intellisence will provide list of Odoo ORM methods, functions, fields definition, etc.
