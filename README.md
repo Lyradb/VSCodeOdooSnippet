@@ -10,4 +10,4 @@ Usage:<br/>
 2. Type "odoo_" and the intellisence will provide list of Odoo ORM methods, functions, fields definition, etc.
 <br/>
 <br/>
-For Details, see: https://code.visualstudio.com/Docs/customization/userdefinedsnippets
+For Details, see: <a title="VS Code Snippets" href="https://code.visualstudio.com/Docs/customization/userdefinedsnippets">VS Code Snippets</a>
