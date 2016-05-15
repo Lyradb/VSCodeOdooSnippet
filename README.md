@@ -4,10 +4,19 @@ MS Visual Studio Code Snippet for Odoo/Openerp.
 This snippet aims to provide help to Odoo developers who wishes to VSCode as their IDE.
 <br/>
 <br/>
+Application:<br/>
+1. For Python Intellisense:<br>
+  1.1. Copy the VSCodeOdooSnippet/python.json content.
+  1.2. From VS Code, Open menu File > Preferences > User Snippets > Python<br/>
+  1.3. Paste and save.
+<br/>
+2. For XML Intellisense:<br>
+  2.1. Copy the VSCodeOdooSnippet/xml.json content.
+  2.2. From VS Code, Open menu File > Preferences > User Snippets > XML<br/>
+  2.3. Paste and save.
+<br/>
+<br/>
 Usage:<br/>
 1. Create New file and save the file with python extension - ".py" or Extensible Markup Language extension - ".xml"
 <br/>
 2. Type "odoo_" and the intellisence will provide list of Odoo ORM methods, functions, fields definition, etc.
-<br/>
-<br/>
-For Details, see: <a title="VS Code Snippets" href="https://code.visualstudio.com/Docs/customization/userdefinedsnippets">VS Code Snippets</a>
