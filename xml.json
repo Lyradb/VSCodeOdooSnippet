@@ -1,0 +1,59 @@
+{
+/*
+	 // Place your snippets for XML here. Each snippet is defined under a snippet name and has a prefix, body and 
+	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+	 // Example:
+	 "Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/"Odoo Init": {
+		"prefix": "odoo_init_xml",
+		"body": [
+			"<?xml version='1.0' encoding='UTF-8'?>",
+ 			"<openerp>",
+    		"	<data>",
+			"	<!--Begin your code here.-->",
+			"		${<!--To code here.-->}",
+			"	<!--End of coding here.-->",
+    		"	</data>",
+			"</openerp>"
+		],
+		"description": "Odoo initialize XML"
+	},
+	
+	"Odoo Inherit": {
+		"prefix": "odoo_inherit",
+		"body": [
+			"<fields />"
+		],
+		"description": "Odoo XML inherit from parent"
+	},
+	
+	"Odoo XML Action": {
+		"prefix": "odoo_action",
+		"body": [
+			"",
+			"<!--${module_title}-->",
+			"<record model='ir.actions.act_window' id='${module}_action'>",
+            "	<field name='name'>${module_title}</field>",
+            "	<field name='res_model'>${module}</field>",
+            "	<field name='view_type'>form</field>",
+            "	<field name='view_mode'>tree,form</field>",
+            "	<field name='help' type='html'>",
+            "		<p class='oe_view_nocontent_create'>",
+            "			Create the first ${module_title}",
+            "		</p>",
+            "	</field>",
+        	"</record>"
+		],
+		"description": "Odoo XML action"
+	}
+	
+	
+}
