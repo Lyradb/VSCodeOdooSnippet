@@ -1,0 +1,108 @@
+{
+	/*
+	 // Place your snippets for Python here. Each snippet is defined under a snippet name and has a prefix, body and 
+	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+	 // Example:
+	 "Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+	"Odoo Import": {
+		"prefix": "odoo_import",
+		"body": [
+			"from openerp import models, fields, api, exceptions"
+		],
+		"description": "Odoo ORM Standard Import"
+	},
+	
+	"Odoo Class": {
+		"prefix": "class",
+		"body": [
+			"class ${class_name}(models.Model):",
+			"	_name = '${module_name}'",
+			"",
+			"	'${field_name}' = fields.Char(string = '${string}')"
+		],
+		"description": "Odoo ORM Class"
+	},
+	
+	"Odoo Class Definition": {
+		"prefix": "odoo_class",
+		"body": [
+			"class ${class_name}(models.Model):",
+			"	_name = '${module_name}'",
+			"",
+			"	'${field_name}' = fields.Char(string = '${string}')"
+		],
+		"description": "Odoo ORM Class Definition"
+	},
+	
+	"Odoo Class Inherit Definition": {
+		"prefix": "odoo_class_inherit",
+		"body": [
+			"class ${class_name}(models.Model):",
+			"	_inherit = '${parent_module_name}'",
+			"",
+			"	'${field_name}' = fields.Char(string = '${string}')"
+		],
+		"description": "Odoo ORM Class Definition"
+	},
+	
+	"Odoo Class Name and Inherit Definition": {
+		"prefix": "odoo_class_name_inherit",
+		"body": [
+			"class ${class_name}(models.Model):",
+			"	_inherit = '${parent_module_name}'",
+			"	_name = '${module_name}'",
+			"",
+			"	'${field_name}' = fields.Char(string = '${string}')"
+		],
+		"description": "Odoo ORM Class Definition"
+	},
+	
+	"Odoo Character field": {
+		"prefix": "fields",
+		"body": [
+				"fields.Char(string = '${string}')"
+		],
+		"description": "Odoo ORM Character"
+	},
+	
+	"Odoo Character field Definition": {
+		"prefix": "odoo_char",
+		"body": [
+				"'${field_name}' = fields.Char(string = '${string}')"
+		],
+		"description": "Odoo ORM Character Definiton"
+	},
+	
+	"Odoo Inherit": {
+		"prefix": "odoo_inherit",
+		"body": [
+				"_inherit = '${super_module_name}'"
+		],
+		"description": "Odoo Inherit From Module"
+	},
+	
+	"Odoo Name": {
+		"prefix": "odoo_name",
+		"body": [
+				"_name = '${module_name}'"
+		],
+		"description": "Odoo Module Name"
+	},
+	
+	"Odoo Related": {
+		"prefix": "odoo_related",
+		"body": [
+				", related = '${one2many}_id.${parent_field}'"
+		],
+		"description": "Odoo Related"
+	}
+}
