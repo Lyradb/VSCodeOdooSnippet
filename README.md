@@ -5,8 +5,8 @@ This snippet aims to provide help to Odoo developers who wishes to VSCode as the
 <br/>
 <br/>
 Usage:<br/>
-1. Create New file, the file with python extension - ".py" or Extensible Markup Language extension - ".xml"
-2. <br/>
+1. Create New file and save the file with python extension - ".py" or Extensible Markup Language extension - ".xml"
+<br/>
 2. Type "odoo_" and the intellisence will provide list of Odoo ORM methods, functions, fields definition, etc.
 <br/>
 <br/>
