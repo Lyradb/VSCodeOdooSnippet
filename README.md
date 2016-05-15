@@ -6,7 +6,7 @@ This snippet aims to provide help to Odoo developers who wishes to VSCode as the
 <br/>
 Requirements:<br/>
 From your VS Code, Python and XML extensions must be installed.<br/>
-  How to: <i>Hit "CTRL + P" and type "ext install python" or "ext install xml" and choose the extension you desired from the pop-up list.<i/>
+  How to: <i>Hit "CTRL + P" and type "ext install python" or "ext install xml" and choose the extension you desired from the pop-up list.</i>
 <br/>
 <br/>
 Application:<br/>
