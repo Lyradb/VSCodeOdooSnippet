@@ -4,7 +4,7 @@ MS Visual Studio Code Snippet for Odoo/Openerp.
 This snippet aims to provide help to Odoo developers who wishes to VSCode as their IDE.
 <br/>
 <br/>
-<b>Requirements:<b/><br/>
+Requirements:<br/>
 From your VS Code, Python and XML extension must be installed.<br/>
   How to: <i>Hit "CTRL + P" and type "ext install python" or "ext install xml" and choose the extension you desired from the pop-up list.<i/>
 <br/>
@@ -22,6 +22,6 @@ Application:<br/>
 <br/>
 <br/>
 Usage:<br/>
-1. Create New file and save the file with python extension - ".py" or Extensible Markup Language extension - ".xml"
+1. Create New file and save the file with python extension - ".py" or with Extensible Markup Language extension - ".xml"
 <br/>
 2. Type "odoo_" and the intellisence will provide list of Odoo ORM methods, functions, fields definition, etc.
