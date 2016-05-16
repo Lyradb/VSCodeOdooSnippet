@@ -14,8 +14,8 @@ From your VS Code, Python and XML extensions must be installed.<br/>
 <br/>
 <b>Application:</b><br/>
   Option A:<br/>
-    Issue command via Linux Terminal:<br/>
-      git clone git@github.com:Lyradb/VSCodeOdooSnippet.git ~/.config/Code/User/snippets
+    *Issue command via Linux Terminal:<br/>
+      $ git clone git@github.com:Lyradb/VSCodeOdooSnippet.git ~/.config/Code/User/snippets
   <br/>
   <br/>
   Option B:<br/>
