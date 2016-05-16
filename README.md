@@ -15,12 +15,12 @@ From your VS Code, Python and XML extensions must be installed.<br/>
 <b>Application:</b><br/>
 1. For Python Intellisense:<br>
   1.1. Copy the VSCodeOdooSnippet/python.json content.<br/>
-  1.2. From VS Code, Open menu <i>File > Preferences > User Snippets > Python</i><br/>
+  1.2. From VS Code, Open menu <i>File > Preferences > User Snippets > Python.</i><br/>
   1.3. Paste and save.
 <br/>
 2. For XML Intellisense:<br>
   2.1. Copy the VSCodeOdooSnippet/xml.json content.<br/>
-  2.2. From VS Code, Open menu <i>File > Preferences > User Snippets > XML</i><br/>
+  2.2. From VS Code, Open menu <i>File > Preferences > User Snippets > XML.</i><br/>
   2.3. Paste and save.
 <br/>
 <br/>
@@ -30,4 +30,4 @@ From your VS Code, Python and XML extensions must be installed.<br/>
 2. Type "odoo_" and the intellisence will provide list of Odoo ORM methods, functions, fields definition, etc.
 <br/>
 <br/>
-Thank you for taking your time here, To keep the development and update you may <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U2VV4BHMLAD8L&lc=PH&item_name=github%2fdonate4dev&item_number=%40lyradb%2fvscode&currency_code=PHP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" title="Your donation is greatly appreciated." style="text-decoration:underline;" target="_blank" >donate a cup of coffee.</a>
+Thank you for taking your time here, to keep the development and update you may <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U2VV4BHMLAD8L&lc=PH&item_name=github%2fdonate4dev&item_number=%40lyradb%2fvscode&currency_code=PHP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" title="Your donation is greatly appreciated." style="text-decoration:underline;" target="_blank" >donate a cup of coffee.</a>
