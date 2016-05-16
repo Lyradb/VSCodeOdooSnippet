@@ -17,7 +17,7 @@
 "Odoo Init": {
 		"prefix": "odoo_init_view",
 		"body": [
-			"<?xml version='1.0' encoding='UTF-8'?>",
+			"<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
  			"<openerp>",
     		"	<data>",
 			"	<!--Begin your code here.-->",
@@ -42,13 +42,13 @@
 		"body": [
 			"",
 			"<!--${module_title} Action-->",
-			"<record model='ir.actions.act_window' id='${module}_action'>",
-            "	<field name='name'>${module}</field>",
-            "	<field name='res_model'>${module}</field>",
-            "	<field name='view_type'>form</field>",
-            "	<field name='view_mode'>tree,form</field>",
-            "	<field name='help' type='html'>",
-            "		<p class='oe_view_nocontent_create'>",
+			"<record model=\"ir.actions.act_window\" id=\"${module}_action\">",
+            "	<field name=\"name\">${module}</field>",
+            "	<field name=\"res_model\">${module}</field>",
+            "	<field name=\"view_type\">form</field>",
+            "	<field name=\"view_mode\">tree,form</field>",
+            "	<field name=\"help\" type=\"html\">",
+            "		<p class=\"oe_view_nocontent_create\">",
             "			Create the first ${module_title}",
             "		</p>",
             "	</field>",
@@ -62,12 +62,12 @@
 		"body": [
 			"",
 			"<!--${module_title} Form-->",
-			"<record model='ir.ui.view' id='${module}_search'>",
-            "	<field name='name'>${module}</field>",
-            "	<field name='res_model'>${module}</field>",
-            "	<field name='type'>form</field>",
-            "	<field name='arch' type='xml'>",
-            "		<form string='${module_title}'>",
+			"<record model=\"ir.ui.view\" id=\"${module}_form\">",
+            "	<field name=\"name\">${module}</field>",
+            "	<field name=\"res_model\">${module}</field>",
+            "	<field name=\"type\">form</field>",
+            "	<field name=\"arch\" type=\"xml\">",
+            "		<form string=\"${module_title}\">",
             "			<sheet>",
 			"			<!--Begin your code here.-->",
 			"				${<!--To Do Code Here.-->}",
@@ -85,11 +85,11 @@
 		"body": [
 			"",
 			"<!--${module_title} Tree-->",
-			"<record model='ir.ui.view' id='${module}_tree'>",
-            "	<field name='name'>${module}</field>",
-            "	<field name='res_model'>${module}</field>",
-            "	<field name='arch' type='xml'>",
-            "		<tree string='${module_title}'>",
+			"<record model=\"ir.ui.view\" id=\"${module}_tree\">",
+            "	<field name=\"name\">${module}</field>",
+            "	<field name=\"res_model\">${module}</field>",
+            "	<field name=\"arch\" type=\"xml\">",
+            "		<tree string=\"${module_title}\">",
 			"			<!--Begin your code here.-->",
 			"				${<!--To Do Code Here.-->}",
 			"			<!--End of coding here.-->",
@@ -104,7 +104,7 @@
 		"prefix": "odoo_menu_parent",
 		"body": [
 			"",
-			"<menuitem id='${module}_menu' name='${Menu Name}' parent='${parent_module}.${module}' sequence = '${seq}'/>"
+			"<menuitem id=\"${module}_menu\" name=\"${Menu Name}\" parent=\"${parent_module}.${module}\" sequence =\"${seq}\"/>"
 		],
 		"description": "Odoo Parent Menu"
 	},
@@ -114,11 +114,25 @@
 		"body": [
 			"",
 			"<menuitem ",
-			"id='${module}_menu'",
-			"name='${Menu Name}'",
-			"parent='${parent_module}.${module}'",
+			"id=\"${module}_menu\"",
+			"name=\"${Menu Name}\"",
+			"parent=\"${parent_module}.${module}\"",
 			"/>"
 		],
 		"description": "Odoo Menu"
+	},
+	
+	"Odoo Inherit": {
+		"prefix": "odoo_inherit",
+		"body": [
+			"<field name=\"inherit_id\" ref=\"${module}\"/>",
+    		"<field name=\"arch\" type=\"xml\">",
+        	"	<xpath expr=\"//field[@name=\"${field}\"]\" position=\"${pos}\">",
+          	"		<field name=\"${name}\"/>",
+        	"	</xpath>",
+    		"</field>"
+		],
+		"description": "Odoo View Inherit"
 	}
+ 
 }
