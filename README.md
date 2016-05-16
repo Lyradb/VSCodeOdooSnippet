@@ -8,11 +8,11 @@ This snippet aims to provide help to Odoo developers who wishes to use the <a hr
 #Preview:<br/>
 -----
   Python<br/>
-    <pre><code>![chat icon](images/python1.png)
-    ![chat icon](images/python2.png)</code></pre>
+    <pre><code>!(images/python1.png)
+    !(images/python2.png)</code></pre>
   XML:<br/>
-    <pre><code>![chat icon](images/xml1.png)
-    ![chat icon](image/xml2.png)</code></pre>
+    <pre><code>!(images/xml1.png)
+    !(images/xml2.png)</code></pre>
 <br/>
 #Requirements:<br/>
 -----
