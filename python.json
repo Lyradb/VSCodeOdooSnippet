@@ -229,5 +229,13 @@
 				"	${#To Do Code Here.}"
 		],
 		"description": "Odoo State Method using decorator"
+	},
+	
+	"Odoo Default": {
+		"prefix": "odoo_default",
+		"body": [
+				", default=${method_name or value}"
+		],
+		"description": "Odoo default"
 	}
 }
