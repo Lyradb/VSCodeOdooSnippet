@@ -1,6 +1,5 @@
 # VSCodeOdooSnippet
-MS Visual Studio Code Snippet for Odoo/Openerp.
-<br/>
+Odoo/Openerp Snippet for MS Visual Studio Code.<br/>
 This snippet aims to provide help to Odoo developers who wishes to VSCode as their IDE.
 <br/>
 <br/>
