@@ -4,7 +4,7 @@ MS Visual Studio Code Snippet for Odoo/Openerp.
 This snippet aims to provide help to Odoo developers who wishes to VSCode as their IDE.
 <br/>
 <br/>
-https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U2VV4BHMLAD8L&lc=PH&item_name=github%2fdonate4dev&item_number=%40lyradb%2fvscode&currency_code=PHP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U2VV4BHMLAD8L&lc=PH&item_name=github%2fdonate4dev&item_number=%40lyradb%2fvscode&currency_code=PHP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" title="Your donation is greatly appreciated." style="text-decoration:underline;" target="_blank" >Donate a cup of coffee.</a>
 <br/>
 <br/>
 <b>Requirements:</b><br/>
