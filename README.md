@@ -23,7 +23,7 @@ This snippet aims to provide help to Odoo developers who wishes to use the <a hr
   2. Extensions for Python and XML is installed in VS Code.<br/>
     <pre><code>How to: <i>Hit "CTRL + P" and type "ext install python" or "ext install xml" 
     and choose the extension you desired from the pop-up list.</i></code></pre>
-<br/>
+
 #Application:<br/>
 -----
   Issue command via Linux Terminal:<br/>
