@@ -29,6 +29,5 @@ This snippet aims to provide help to Odoo developers who wishes to VSCode as the
     Odoo ORM methods, functions, fields definition, etc.
 <br/>
 <br/>
------
 <br/>
 <b>Thank you for taking your time here, to keep the development and update you may <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U2VV4BHMLAD8L&lc=PH&item_name=github%2fdonate4dev&item_number=%40lyradb%2fvscode&currency_code=PHP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" title="Your donation is highly appreciated." style="text-decoration:underline;" target="_blank" >donate a cup of coffee.</a></b>
