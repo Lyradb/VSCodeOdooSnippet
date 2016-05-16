@@ -301,7 +301,7 @@
 	"Odoo Order": {
 		"prefix": "odoo_order",
 		"body": [
-			"_name = '${field_order}', ${field_order2}'"
+			"_order = '${field_order}', ${field_order2}'"
 		],
 		"description": "Odoo Order"
 	}
