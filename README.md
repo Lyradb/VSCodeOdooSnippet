@@ -5,13 +5,20 @@ This snippet aims to provide help to Odoo developers who wishes to use the <a hr
 <br/>
 <center><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U2VV4BHMLAD8L&lc=PH&item_name=github%2fdonate4dev&item_number=%40lyradb%2fvscode&currency_code=PHP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" title="Your donation is highly appreciated." style="text-decoration:underline;" target="_blank" >Donate a cup of coffee.</a></center>
 <br/>
+#Preview:<br/>
+-----
+  Python<br/>
+    <pre><code>[![chat icon](images/python1.png) Selection]
+    [![chat icon](images/python2.png)Output]</code></pre>
+  XML:<br/>
+    [![chat icon](images/xml1.png)Selection]
+    [![chat icon](iage/xml2.png)Output]
 <br/>
 #Requirements:<br/>
 -----
   From your VS Code, Python and XML extensions must be installed.<br/>
     <pre><code>How to: <i>Hit "CTRL + P" and type "ext install python" or "ext install xml" 
     and choose the extension you desired from the pop-up list.</i></code></pre>
-<br/>
 <br/>
 #Application:<br/>
 -----
