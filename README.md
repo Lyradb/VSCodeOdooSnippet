@@ -9,40 +9,26 @@ This snippet aims to provide help to Odoo developers who wishes to VSCode as the
 <br/>
 <b>Requirements:</b><br/>
 -----
-From your VS Code, Python and XML extensions must be installed.<br/>
-  <pre><code>How to: <i>Hit "CTRL + P" and type "ext install python" or "ext install xml" 
-  and choose the extension you desired from the pop-up list.</i></code></pre>
+  From your VS Code, Python and XML extensions must be installed.<br/>
+    <pre><code>How to: <i>Hit "CTRL + P" and type "ext install python" or "ext install xml" 
+    and choose the extension you desired from the pop-up list.</i></code></pre>
 <br/>
 <br/>
 <b>Application:</b><br/>
 -----
-  Option A:
     Issue command via Linux Terminal:<br/>
       <pre><code>git clone git@github.com:Lyradb/VSCodeOdooSnippet.git ~/.config/Code/User/snippets</code></pre>
+    To update:
+      <pre><code>cd ~/.config/Code/User/snippets
+      git pull</code></pre>
   <br/>
   <br/>
-  Option B:
-  <pre><code>
-    1. For Python Intellisense:<br/>
-      1.1. Copy the VSCodeOdooSnippet/python.json content.<br/>
-      1.2. From VS Code, Open menu <i>File > Preferences > User Snippets > Python.</i><br/>
-      1.3. Paste and save.
-  <br/>
-    2. For XML Intellisense:<br/>
-      2.1. Copy the VSCodeOdooSnippet/xml.json content.<br/>
-      2.2. From VS Code, Open menu <i>File > Preferences > User Snippets > XML.</i><br/>
-      2.3. Paste and save.
-  </code></pre>
-<br/>
-<br/>
 <b>Usage:</b>
 -----
-<pre><code>
-  1. Create "New File" and save the file with Python extension - ".py" 
+<pre><code>1. Create "New File" and save the file with Python extension - ".py" 
     or with Extensible Markup Language extension - ".xml"<br/>
   2. Type "odoo_" and the intellisence will provide list of 
-    Odoo ORM methods, functions, fields definition, etc.
-</code></pre>
+    Odoo ORM methods, functions, fields definition, etc.</code></pre>
 <br/>
 <br/>
 Thank you for taking your time here, to keep the development and update you may <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U2VV4BHMLAD8L&lc=PH&item_name=github%2fdonate4dev&item_number=%40lyradb%2fvscode&currency_code=PHP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" title="Your donation is highly appreciated." style="text-decoration:underline;" target="_blank" >donate a cup of coffee.</a>
