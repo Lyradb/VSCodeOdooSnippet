@@ -13,21 +13,20 @@ From your VS Code, Python and XML extensions must be installed.<br/>
 <br/>
 <br/>
 <b>Application:</b><br/>
-<ol>
-<li>Option A:</li>
-Issue command via Linux Terminal:<br/>
-  $ git clone git@github.com:Lyradb/VSCodeOdooSnippet.git ~/.config/Code/User/snippets
-<li>Option B:</li><br/>
-1. For Python Intellisense:<br>
-  1.1. Copy the VSCodeOdooSnippet/python.json content.<br/>
-  1.2. From VS Code, Open menu <i>File > Preferences > User Snippets > Python.</i><br/>
-  1.3. Paste and save.
-<br/>
-2. For XML Intellisense:<br>
-  2.1. Copy the VSCodeOdooSnippet/xml.json content.<br/>
-  2.2. From VS Code, Open menu <i>File > Preferences > User Snippets > XML.</i><br/>
-  2.3. Paste and save.
-</ol>
+  Option A:<br/>
+    Issue command via Linux Terminal:<br/>
+      git clone git@github.com:Lyradb/VSCodeOdooSnippet.git ~/.config/Code/User/snippets
+  <br/>
+  Option B:
+    1. For Python Intellisense:<br/>
+      1.1. Copy the VSCodeOdooSnippet/python.json content.<br/>
+      1.2. From VS Code, Open menu <i>File > Preferences > User Snippets > Python.</i><br/>
+      1.3. Paste and save.
+  <br/>
+    2. For XML Intellisense:<br/>
+      2.1. Copy the VSCodeOdooSnippet/xml.json content.<br/>
+      2.2. From VS Code, Open menu <i>File > Preferences > User Snippets > XML.</i><br/>
+      2.3. Paste and save.
 <br/>
 <br/>
 <b>Usage:</b><br/>
