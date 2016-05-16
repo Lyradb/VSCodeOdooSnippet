@@ -2,7 +2,7 @@
 <a href="https://www.odoo.com/" style="text-decoration:underline;" target="_blank" >Odoo/Openerp</a> Snippet for <a href="https://code.visualstudio.com/" style="text-decoration:underline;" target="_blank" >MS Visual Studio Code</a>.<br/>
 This snippet aims to provide help to Odoo developers who wishes to use the <a href="https://code.visualstudio.com/" style="text-decoration:underline;" target="_blank" >Visual Studio Code</a> IDE.
 <br/>
-#Benifits:<br/>
+#Avantages and Benefits:<br/>
 -----
   Easy encoding without worry on memorizing much on Odoo syntax.
 <br/>
