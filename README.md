@@ -4,7 +4,7 @@ MS Visual Studio Code Snippet for Odoo/Openerp.
 This snippet aims to provide help to Odoo developers who wishes to VSCode as their IDE.
 <br/>
 <br/>
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U2VV4BHMLAD8L&lc=PH&item_name=github%2fdonate4dev&item_number=%40lyradb%2fvscode&currency_code=PHP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" title="Your donation is greatly appreciated." style="text-decoration:underline;" target="_blank" >Donate a cup of coffee.</a>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U2VV4BHMLAD8L&lc=PH&item_name=github%2fdonate4dev&item_number=%40lyradb%2fvscode&currency_code=PHP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" title="Your donation is highly appreciated." style="text-decoration:underline;" target="_blank" >Donate a cup of coffee.</a>
 <br/>
 <br/>
 <b>Requirements:</b><br/>
@@ -30,4 +30,4 @@ From your VS Code, Python and XML extensions must be installed.<br/>
 2. Type "odoo_" and the intellisence will provide list of Odoo ORM methods, functions, fields definition, etc.
 <br/>
 <br/>
-Thank you for taking your time here, to keep the development and update you may <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U2VV4BHMLAD8L&lc=PH&item_name=github%2fdonate4dev&item_number=%40lyradb%2fvscode&currency_code=PHP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" title="Your donation is greatly appreciated." style="text-decoration:underline;" target="_blank" >donate a cup of coffee.</a>
+Thank you for taking your time here, to keep the development and update you may <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U2VV4BHMLAD8L&lc=PH&item_name=github%2fdonate4dev&item_number=%40lyradb%2fvscode&currency_code=PHP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" title="Your donation is highly appreciated." style="text-decoration:underline;" target="_blank" >donate a cup of coffee.</a>
