@@ -17,9 +17,8 @@ This snippet aims to provide help to Odoo developers who wishes to VSCode as the
 -----
   Issue command via Linux Terminal:<br/>
     <pre><code>git clone git@github.com:Lyradb/VSCodeOdooSnippet.git ~/.config/Code/User/snippets</code></pre>
-  To update:
-    <pre><code>cd ~/.config/Code/User/snippets
-      git pull</code></pre>
+  To update, issue the ff.:
+    <pre><code>cd ~/.config/Code/User/snippets && git pull</code></pre>
   <br/>
   <br/>
 #Usage:
