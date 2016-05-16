@@ -1,7 +1,8 @@
 # <b>VSCodeOdooSnippet</b>
-Odoo/Openerp Snippet for MS Visual Studio Code.<br/>
+Odoo/Openerp Snippet for <a href="https://code.visualstudio.com/" style="text-decoration:underline;" target="_blank" >MS Visual Studio Code</a>.<br/>
 This snippet aims to provide help to Odoo developers who wishes to use the <a href="https://code.visualstudio.com/" style="text-decoration:underline;" target="_blank" >Visual Studio Code</a> IDE.
 <br/>
+[logo]: http://www.omgubuntu.co.uk/wp-content/uploads/2015/05/gjBh4cw2-300x300.png "Logo Title Text 2"
 <br/>
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U2VV4BHMLAD8L&lc=PH&item_name=github%2fdonate4dev&item_number=%40lyradb%2fvscode&currency_code=PHP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" title="Your donation is highly appreciated." style="text-decoration:underline;" target="_blank" >Donate a cup of coffee.</a>
 <br/>
