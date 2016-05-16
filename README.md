@@ -10,17 +10,18 @@ This snippet aims to provide help to Odoo developers who wishes to VSCode as the
 <b>Requirements:</b><br/>
 -----
 From your VS Code, Python and XML extensions must be installed.<br/>
-  <pre><code>How to: <i>Hit "CTRL + P" and type "ext install python" or "ext install xml" and choose the extension you desired from the pop-up list.</i></code></pre>
+  <pre><code>How to: <i>Hit "CTRL + P" and type "ext install python" or "ext install xml" 
+  and choose the extension you desired from the pop-up list.</i></code></pre>
 <br/>
 <br/>
 <b>Application:</b><br/>
 -----
-  Option A:<br/>
+  Option A:
     Issue command via Linux Terminal:<br/>
       <pre><code>git clone git@github.com:Lyradb/VSCodeOdooSnippet.git ~/.config/Code/User/snippets</code></pre>
   <br/>
   <br/>
-  Option B:<br/>
+  Option B:
   <pre><code>
     1. For Python Intellisense:<br/>
       1.1. Copy the VSCodeOdooSnippet/python.json content.<br/>
@@ -34,11 +35,13 @@ From your VS Code, Python and XML extensions must be installed.<br/>
   </code></pre>
 <br/>
 <br/>
-<b>Usage:</b><br/>
+<b>Usage:</b>
 -----
 <pre><code>
-  1. Create "New File" and save the file with Python extension - ".py" or with Extensible Markup Language extension - ".xml"<br/>
-  2. Type "odoo_" and the intellisence will provide list of Odoo ORM methods, functions, fields definition, etc.
+  1. Create "New File" and save the file with Python extension - ".py" 
+    or with Extensible Markup Language extension - ".xml"<br/>
+  2. Type "odoo_" and the intellisence will provide list of 
+    Odoo ORM methods, functions, fields definition, etc.
 </code></pre>
 <br/>
 <br/>
