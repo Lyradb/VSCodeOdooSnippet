@@ -80,6 +80,27 @@
 		"description": "Odoo Form View"
 	},
 	
+	"Odoo View Search": {
+		"prefix": "odoo_search_view",
+		"body": [
+			"",
+			"<!--${module_title} Search-->",      
+        	"<record model=\"ir.ui.view\" id=\"${module}_search\">",
+            "	<field name=\"name\">${module}</field>",
+            "	<field name=\"model\">${module}</field>",
+            "	<field name=\"type\">search</field>",
+            "	<field name=\"arch\" type=\"xml\">",
+            " 		<search string=\"${module_title}\">",
+			"			<!--Begin your code here.-->",
+			"				${<!--To Do Code Here.-->}",
+			"			<!--End of coding here.-->",
+            "   	</search>",
+            "	</field>",
+        	"</record>"
+		],
+		"description": "Odoo Search View"
+	},
+	
 	"Odoo View Tree": {
 		"prefix": "odoo_tree_view",
 		"body": [
