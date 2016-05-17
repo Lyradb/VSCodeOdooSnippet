@@ -162,11 +162,14 @@
 	"Odoo Inherit": {
 		"prefix": "odoo_inherit",
 		"body": [
+			"<!--requires model, not res_model-->",
+			"<!--<field name=\"model\">${module}</field>-->",
 			"<field name=\"inherit_id\" ref=\"${module}\"/>",
     		"<field name=\"arch\" type=\"xml\">",
-        	"	<xpath expr=\"//field[@name=\"${field}\"]\" position=\"${pos}\">",
+			"<!--to insert, replace or remove fields or view-->",
+        	"	<!--<xpath expr=\"//field[@name='${field}']\" position=\"${pos}\">",
           	"		<field name=\"${name}\"/>",
-        	"	</xpath>",
+        	"	</xpath>-->",
     		"</field>"
 		],
 		"description": "Odoo View Inherit"
