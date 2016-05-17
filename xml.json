@@ -15,7 +15,7 @@
 */
 
 "Odoo Init": {
-		"prefix": "odoo_init_view",
+		"prefix": "odoo_init",
 		"body": [
 			"<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
  			"<openerp>",
@@ -26,19 +26,11 @@
     		"	</data>",
 			"</openerp>"
 		],
-		"description": "Odoo initialize View"
-	},
-	
-	"Odoo Inherit": {
-		"prefix": "odoo_inherit",
-		"body": [
-			"<fields />"
-		],
-		"description": "Odoo View inherit from parent"
+		"description": "Odoo initialize"
 	},
 	
 	"Odoo View Action": {
-		"prefix": "odoo_action_view",
+		"prefix": "odoo_view_action",
 		"body": [
 			"",
 			"<!--${module_title} Action-->",
@@ -57,8 +49,32 @@
 		"description": "Odoo Action View"
 	},
 	
+	"Odoo View Mode": {
+		"prefix": "odoo_view_mode",
+		"body": [
+			"<field name=\"view_mode\">search,form,${tree},${kanban}</field>"
+		],
+		"description": "Odoo View Mode"
+	},
+	
+	"Odoo Domain": {
+		"prefix": "odoo_domain",
+		"body": [
+			" <field name=\"domain\">[('${field}', '${ilike}', '${value}')]</field>"
+		],
+		"description": "Odoo Domain"
+	},
+	
+	"Odoo Context": {
+		"prefix": "odoo_domain",
+		"body": [
+			" <field name=\"context\">{\"search_default\":'${efault_filter}',\"action_default\":'${action_filter}'}</field>"
+		],
+		"description": "Odoo Context"
+	},      
+	
 	"Odoo View Form": {
-		"prefix": "odoo_form_view",
+		"prefix": "odoo_view_form",
 		"body": [
 			"",
 			"<!--${module_title} Form-->",
@@ -81,7 +97,7 @@
 	},
 	
 	"Odoo View Search": {
-		"prefix": "odoo_search_view",
+		"prefix": "odoo_view_search",
 		"body": [
 			"",
 			"<!--${module_title} Search-->",      
@@ -102,7 +118,7 @@
 	},
 	
 	"Odoo View Tree": {
-		"prefix": "odoo_tree_view",
+		"prefix": "odoo_view_tree",
 		"body": [
 			"",
 			"<!--${module_title} Tree-->",
@@ -154,6 +170,41 @@
     		"</field>"
 		],
 		"description": "Odoo View Inherit"
+	},
+	
+	"Odoo Button": {
+		"prefix": "odoo_button",
+		"body": [
+			"<button name=\"${action}\" type=\"object\"",
+          	"					string=\"${title}\"",
+            "                   states=\"${state}\"/>\""
+		],
+		"description": "Odoo button"
+	},
+	
+	"Odoo View Kanvan": {
+		"prefix": "odoo_view_kanvan",
+		"body": [
+			"",
+			"<!--${module_title} Form-->",
+			"<record model=\"ir.ui.view\" id=\"${module}_kanban_view\">",
+        "    <field name=\"name\">${module}.kanban</field>",
+        "    <field name=\"model\">${module}</field>",
+        "    <field name=\"arch\" type=\"xml\">",
+        "        <kanban default_group_by=\"department_id\">",
+        "            <field name=\"color\"/>",
+        "            <templates>",
+        "                <t t-name=\"kanban-box\">",
+		"					<!--Begin your code here.-->",
+		"					${<!--To Do Code Here.-->}",
+		"				<!--End of coding here.-->",
+        "                </t>",
+        "            </templates>",
+        "        </kanban>",
+        "    </field>",
+        "</record>"
+		],
+		"description": "Odoo Kanvan View"
 	}
  
 }
