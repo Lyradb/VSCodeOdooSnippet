@@ -149,6 +149,14 @@
 		"description": "Odoo ORM Selection Definiton"
 	},
 	
+	"Odoo Fields.Boolean field Definition": {
+		"prefix": "fields.Boolean",
+		"body": [
+				"fields.Boolean(string='${String}')"
+		],
+		"description": "Odoo ORM Selection Definiton"
+	},
+	
 	"Odoo Fields Character field Definition": {
 		"prefix": "odoo_char",
 		"body": [
@@ -160,7 +168,7 @@
 	"Odoo Many2One field Definition": {
 		"prefix": "odoo_many2one",
 		"body": [
-				"${field_name}_id = fields.Many2one('${module}',string='${string}', default=_${method_name})"
+				"${field_name}_id = fields.Many2One('${module}',string='${string}', default=_${method_name})"
 		],
 		"description": "Odoo ORM Many2One Definiton"
 	},
@@ -214,6 +222,14 @@
                              "string='${Status}', default='${draft}')"
 		],
 		"description": "Odoo ORM Selection Definiton"
+	},
+	
+	"Odoo Boolean field Definition": {
+		"prefix": "odoo_boolean",
+		"body": [
+				"${state} = fields.Boolean([string='${string}')"
+		],
+		"description": "Odoo ORM Boolean Definiton"
 	},
 	
 	"Odoo Inherit": {
@@ -304,5 +320,78 @@
 			"_order = '${field_order}', ${field_order2}'"
 		],
 		"description": "Odoo Order"
+	},
+
+	"Odoo self env search": {
+		"prefix": "odoo_env_search",
+		"body": [
+			"${result} = self.env['${module}'].search([('${field}','=', ${value}})])"
+		],
+		"description": "Odoo Self Environment Search"
+	},
+
+	"Odoo self env browse": {
+		"prefix": "odoo_env_browse",
+		"body": [
+            "${result} = self.env['${module}'].browse(${result_id})"
+		],
+		"description": "Odoo Self Environment Browse"
+	},
+
+	"Odoo for in": {
+		"prefix": "odoo_for_in",
+		"body": [
+            "for ${record} in ${result}:",
+            "	${#To Do Code here}"
+		],
+		"description": "Odoo For In Statement"
+	},
+
+	"Odoo ORM required": {
+		"prefix": "odoo_required",
+		"body": [
+            ", required = True"
+		],
+		"description": "Odoo ORM required"
+	},
+
+	"Odoo ORM Super": {
+		"prefix": "odoo_super",
+		"body": [
+            "super(${module}, self)"
+		],
+		"description": "Odoo ORM Super"
+	},
+
+	"Odoo openerp pool": {
+		"prefix": "odoo_pool_get",
+		"body": [
+            "${result} = self.pool.get('${module}')"
+		],
+		"description": "Odoo pool"
+	},
+
+	"Openerp Pool Search": {
+		"prefix": "openerp_pool_search",
+		"body": [
+            "${result} = self.pool.get('${module}').search(cr,uid,[('${field}}','=',${value})])"
+		],
+		"description": "Odoo pool search"
+	},
+
+	"Openerp Pool Browse": {
+		"prefix": "openerp_pool_browse",
+		"body": [
+            "${result} = self.pool.get('${module}').browse(cr,uid,${search_id})"
+		],
+		"description": "Odoo pool browse"
+	},
+
+	"Openerp Pool Read": {
+		"prefix": "openerp_pool_read",
+		"body": [
+            "${result} = self.pool.get('${module}').read(cr, uid, ${search_id}, ['${field list}'])"
+		],
+		"description": "Odoo pool read"
 	}
 }
