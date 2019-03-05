@@ -11,11 +11,11 @@ This snippet aims to provide help to Odoo developers who wishes to use the <a hr
 #Preview:<br/>
 -----
   Python<br/>
-    <pre><code>![image python1 preview](images/python1.png)
-    ![image python2 preview](images/python2.png)</code></pre>
+    <pre><code>![image python1 preview](https://github.com/Lyradb/VSCodeOdooSnippet/blob/master/images/python1.png)
+    ![image python2 preview](https://github.com/Lyradb/VSCodeOdooSnippet/blob/master/images/python2.png)</code></pre>
   XML:<br/>
-    <pre><code>![image xml1 preview](images/xml1.png)
-    ![image xml2 preview](images/xml2.png)</code></pre>
+    <pre><code>![image xml1 preview](https://github.com/Lyradb/VSCodeOdooSnippet/blob/master/images/xml1.png)
+    ![image xml2 preview](https://github.com/Lyradb/VSCodeOdooSnippet/blob/master/images/xml2.png)</code></pre>
 <br/>
 #Requirements:<br/>
 -----
